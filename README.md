@@ -1,5 +1,5 @@
 # Vg5kGraphics
-An [EF9345](https://en.wikipedia.org/wiki/Thomson_EF9345) Quest !
+_An [EF9345](https://en.wikipedia.org/wiki/Thomson_EF9345) Quest !_
 
 Or how to display full screen image on a [VG5000](https://en.wikipedia.org/wiki/Philips_VG5000).
 
