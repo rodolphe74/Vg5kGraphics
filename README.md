@@ -3,10 +3,6 @@
 
 _(Or how to display full screen image on a [VG5000](https://en.wikipedia.org/wiki/Philips_VG5000))._
 
-<p align="center">
-  <img src="/images/exotic_parrot.png" />
-</p>
-
 ![Exotic](/images/exotic_parrot.png)
 
 You like programming with constraints? You will love the following. 
