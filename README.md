@@ -13,4 +13,9 @@ The best you can do to display image on this machine is to use the semi graphic 
 - for 25 rows,
 - which allows a resolution of 160*250 px.
 
+To create an image, you need to :
+- crop the original image into rectangles of 4*10 px.
+- create a quadrichromic character from it
+- tell the ef9345 to display each create character at the right place.
+
 What's problematic is that 500 characters is not enough to cover the entire screen. 
