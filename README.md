@@ -10,8 +10,8 @@ The best you can do to display image on this machine is to use the semi graphic 
 - a quadrichromic character as a size of 4x10 px
 - a quadrichromic character can have 4 colors on a palette of 8 colors (white, cyan, magenta, blue, yellow, green, red, black).
 - a quadrichromic character is defined by 10 slices of 4 px width.
-- each row contains contains 40 characters
-- for 25 rows
-- which allows a resolution of 160*250 px
+- each row contains contains 40 characters,
+- for 25 rows,
+- which allows a resolution of 160*250 px.
 
 What's problematic is that 500 characters is not enough to cover the entire screen. 
