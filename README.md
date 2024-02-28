@@ -9,7 +9,7 @@ The best you can do to display an image on this machine is to use the semi graph
 - redefine a maximum of 500 quadrichomic characters.
 - a quadrichromic character can have 4 colors on a palette of 8 colors (white, cyan, magenta, blue, yellow, green, red, black).
 - a quadrichromic character is defined by 10 slices of 4 px width (ie 4*10 px).
-- each row contains contains 40 characters,
+- each row contains 40 characters,
 - for 25 rows,
 - which allows a resolution of 160*250 px.
 
