@@ -2,3 +2,5 @@
 An [EF9345](https://en.wikipedia.org/wiki/Thomson_EF9345) Quest !
 
 Or how to display full screen image on a [VG5000](https://en.wikipedia.org/wiki/Philips_VG5000).
+
+You like programming with constraints? You will love the following.
