@@ -13,3 +13,4 @@ The best you can do to display image on this machine is to use the semi graphic 
 - for 25 rows
 - which allows a resolution of 160*250 px
 
+What's problematic is that 500 characters is not enough to cover the entire screen.
