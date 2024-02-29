@@ -33,7 +33,8 @@ python resizeToVg5k.py .\Nighthawkss-644x429.jpeg
 ```
 It will produce a well dimensionned image called "im_reframed.png" .
 
-<span style="font-size:2.5em;">Text goes here</span>
+<h1>Text goes here</h1>
+
 
 <img src="images/Nighthawkss-644x429.jpeg" height="250">&nbsp;<span style='font-size:0.5em;'>&#8669;</span>&nbsp;<img src="images/nightawks_im_reframed.png" height="250">
 ## 2. Image dithering
