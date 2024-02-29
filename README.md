@@ -33,7 +33,7 @@ python resizeToVg5k.py .\Nighthawkss-644x429.jpeg
 ```
 It will produce a well dimensionned image called "im_reframed.png" .
 
-<img src="images/Nighthawkss-644x429.jpeg" height="250">&nbsp;<img src="images/nightawks_im_reframed.png" height="250">
+<img src="images/Nighthawkss-644x429.jpeg" height="250">&nbsp;<span style='font-size:100px;'>&#8669;</span>&nsbsp;<img src="images/nightawks_im_reframed.png" height="250">
 ## 2. Image dithering
 ### Standard ordered dithering
 ### Yliluoma's ordered dithering
