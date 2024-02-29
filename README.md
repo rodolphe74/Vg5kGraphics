@@ -39,6 +39,7 @@ It will produce a well dimensionned image called "im_reframed.png".
     <td><img src="images/nightawks_im_reframed.png" height="125"></td>
 </tr>
 </table>
+
 ## 2. Image dithering
 ### Standard ordered dithering
 ### Yliluoma's ordered dithering
