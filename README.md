@@ -31,7 +31,7 @@ With a ratio of 0.64, the pixel in 160*250 are not square. It is necessary to tr
 ```code
 python resizeToVg5k.py .\Nighthawkss-644x429.jpeg
 ```
-It will produce a well dimensionned image called "im_reframed.png".
+It will produce a well dimensioned image called "im_reframed.png".
 
 <table>
 <tr>
