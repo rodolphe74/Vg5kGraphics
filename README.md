@@ -36,11 +36,7 @@ It will produce a well dimensionned image called "im_reframed.png".
 <table  style="border-collapse: collapse; border: none;">
 <tr>
     <td><img src="images/Nighthawkss-644x429.jpeg" height="125"></td>
-</tr>
-<tr>
     <td><h1>&#8669;</h1></td>
-</tr>
-<tr>
     <td><img src="images/nightawks_im_reframed.png" height="125"></td>
 </tr>
 </table>
