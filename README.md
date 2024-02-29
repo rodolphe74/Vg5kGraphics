@@ -26,4 +26,15 @@ What's problematic is that 500 characters is not enough to cover the entire scre
 A kind of lossy compression.
 
 # Guideline
-# 1. Image reshaping
+## 1. Image reshaping
+
+## 2. Image dithering
+### Standard ordered dithering
+### Yliluoma's ordered dithering
+### Other methods ?
+
+## 3. Transform image to Z80 assembly code
+
+## 4. Compile assembky code to binary code
+
+## 5. Launch binary code
