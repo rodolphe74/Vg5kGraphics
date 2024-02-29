@@ -20,7 +20,7 @@ To create an image, you need to :
 - create a quadrichromic character from them.
 - tell the ef9345 to display each created character at the right place.
 
-What's problematic is that 500 characters is not enough to cover the entire screen. 2 cases: 
+What's problematic is that 500 characters is not enough to cover the entire screen. Two cases: 
 - your image have a lot of characters in common, you need 500 or less characters -> OK, go for display
 - your image have few characters in common, you need more than 500 characters -> you will have to pair look alike characters to lower characters count under 500. 
 A kind of lossy compression.
