@@ -27,7 +27,11 @@ A kind of lossy compression.
 
 # Guideline
 ## 1. Image reshaping
-
+With a ratio of 0.64, the pixel in 160*250 are not square. It is necessary to transform the original image into someting which is squeezed in width:
+```code
+python resizeToVg5k.py .\gazoline.jpg
+```
+It will produce a well dimensionned image called "im_reframed.png" .
 ## 2. Image dithering
 ### Standard ordered dithering
 ### Yliluoma's ordered dithering
