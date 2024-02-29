@@ -35,6 +35,6 @@ A kind of lossy compression.
 
 ## 3. Transform image to Z80 assembly code
 
-## 4. Compile assembky code to binary code
+## 4. Compile assembly code to binary code
 
 ## 5. Launch binary code
