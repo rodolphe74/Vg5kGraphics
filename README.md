@@ -21,6 +21,26 @@ To create an image, you need to :
 - tell the ef9345 to display each created character at the right place.
 
 What's problematic is that 500 characters is not enough to cover the entire screen. 2 cases: 
-- your image have a lot of character cross-references, you need 500 or less characters -> OK, go for display
-- your image have few character cross-references, you need more than 500 characters -> you will have to pair look alike characters to lower characters count under 500. 
+- your image have a lot of characters in common, you need 500 or less characters -> OK, go for display
+- your image have few characters in common, you need more than 500 characters -> you will have to pair look alike characters to lower characters count under 500. 
 A kind of lossy compression.
+
+# Guideline
+## 1. Image reshaping
+With a ratio of 0.64, the pixel in 160*250 are not square. It is necessary to transform the original image into someting which is squeezed in width:
+```code
+python resizeToVg5k.py .\Nighthawkss-644x429.jpeg
+```
+It will produce a well dimensionned image called "im_reframed.png" .
+
+<img src="image/Nighthawkss-644x429.jpeg" height="250">&nbsp;<img src="image/nightawks_im_reframed.png" height="250">
+## 2. Image dithering
+### Standard ordered dithering
+### Yliluoma's ordered dithering
+### Other methods ?
+
+## 3. Transform image to Z80 assembly code
+
+## 4. Compile assembly code to binary code
+
+## 5. Launch binary code
