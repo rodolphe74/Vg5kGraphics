@@ -27,7 +27,7 @@ A kind of lossy compression.
 
 # Guideline
 ## 1. Image reshaping
-With a ratio of 0.64, the pixel in 160*250 are not square. It is necessary to transform the original image into someting which is squeezed in width:
+With a ratio of 0.64, the pixel in 160*250 are not square. It is necessary to transform the original image into something which is squeezed in width:
 ```code
 python resizeToVg5k.py .\Nighthawkss-644x429.jpeg
 ```
