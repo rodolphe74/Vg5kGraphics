@@ -26,3 +26,4 @@ What's problematic is that 500 characters is not enough to cover the entire scre
 A kind of lossy compression.
 
 # Guideline
+# 1. Image reshaping
