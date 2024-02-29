@@ -32,8 +32,8 @@ With a ratio of 0.64, the pixel in 160*250 are not square. It is necessary to tr
 python resizeToVg5k.py .\Nighthawkss-644x429.jpeg
 ```
 It will produce a well dimensionned image called "im_reframed.png" .
-
-<img src="images/Nighthawkss-644x429.jpeg" height="250"><span>&nbsp;<h1>&#8669;</h1>&nbsp;<span><img src="images/nightawks_im_reframed.png" height="250">
+| :---         |     :---:      |          ---: |
+<img src="images/Nighthawkss-644x429.jpeg" height="250"> | <h1>&#8669;</h1> | <img src="images/nightawks_im_reframed.png" height="250">
 ## 2. Image dithering
 ### Standard ordered dithering
 ### Yliluoma's ordered dithering
