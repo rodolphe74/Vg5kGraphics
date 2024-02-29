@@ -29,7 +29,7 @@ A kind of lossy compression.
 ## 1. Image reshaping
 With a ratio of 0.64, the pixel in 160*250 are not square. It is necessary to transform the original image into someting which is squeezed in width:
 ```code
-python resizeToVg5k.py .\gazoline.jpg
+python resizeToVg5k.py .\Nighthawkss-644x429.jpeg
 ```
 It will produce a well dimensionned image called "im_reframed.png" .
 ## 2. Image dithering
