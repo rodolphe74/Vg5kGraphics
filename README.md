@@ -70,7 +70,7 @@ magick.exe im_reframed.png -posterize 8 -ordered-dither o2x2 -remap palette.png 
 ```
 ![Exotic](/images/im_ordered_magick.png)
 
-Problem is that Image Magick is using a square matrix and even if dithering is good, it is not as good as previous method.
+Problem is that Image Magick is using a square matrix and even if dithering is good, it is not as good as previous method for the uncommon VG5000 resolution.
 
 ## 3. Transform image to Z80 assembly code
 
