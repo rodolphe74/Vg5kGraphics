@@ -31,7 +31,7 @@ With a ratio of 0.64, the pixels in 160*250 are not square. It is necessary to t
 ```code
 python resizeToVg5k.py .\Nighthawkss-644x429.jpeg
 ```
-It will produce a well dimensioned image called "im_reframed.png".
+It will produce a well dimensioned image called "im_reframed.png". Original script is available [here](https://gist.github.com/mieki256/de2e21417528f724da4853cc30d9ef95).
 
 <table>
 <tr>
@@ -42,8 +42,33 @@ It will produce a well dimensioned image called "im_reframed.png".
 
 ## 2. Image dithering
 ### Standard ordered dithering
+The ditherTo8Colors.py script will produce a 8 colors paletted image from previous framed one.
+It uses standard ordered dithering method with a 2*4 bayer rectangular matrix adapted to the VG5000 resolution.
+```code
+python .\ditherTo8Colors.py .\im_reframed.png .6
+```
+Arguments are image name and gamma correction.
+
+![Exotic](/images/im_ordered_standard_6.png)
+
 ### Yliluoma's ordered dithering
+A far best method to dither image took from https://bisqwit.iki.fi/story/howto/dither/jy/. Original script is available [here](https://gist.github.com/mieki256/de2e21417528f724da4853cc30d9ef95).
+It uses the same matrix as previous script.
+```code
+python .\ditherTo8ColorsY.py .\im_reframed.png .9
+```
+Arguments are image name and gamma correction.
+
+![Exotic](/images/im_ordered_Yliluoma_9.png)
+
 ### Other methods ?
+Use an [Image magick](https://legacy.imagemagick.org/Usage/quantize/) dithering method.
+
+For example:
+```code
+magick.exe im_reframed.png -posterize 8 -ordered-dither o2x2 -remap palette.png -scale 100% im_ordered.png
+```
+![Exotic](/images/im_ordered_magick.png)
 
 ## 3. Transform image to Z80 assembly code
 
