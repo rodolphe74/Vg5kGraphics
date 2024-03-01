@@ -70,6 +70,8 @@ magick.exe im_reframed.png -posterize 8 -ordered-dither o2x2 -remap palette.png 
 ```
 ![Exotic](/images/im_ordered_magick.png)
 
+Problem is that Image Magick use a square matrix and even if dithering is good, it is not as good as previous method.
+
 ## 3. Transform image to Z80 assembly code
 
 ## 4. Compile assembly code to binary code
