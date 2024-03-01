@@ -68,7 +68,7 @@ For example:
 ```code
 magick.exe im_reframed.png -posterize 8 -ordered-dither o2x2 -remap palette.png -scale 100% im_ordered.png
 ```
-![Exotic](/images/im_ordered_magick_9.png)
+![Exotic](/images/im_ordered_magick.png)
 
 ## 3. Transform image to Z80 assembly code
 
