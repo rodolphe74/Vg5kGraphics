@@ -44,6 +44,10 @@ It will produce a well dimensioned image called "im_reframed.png".
 ### Standard ordered dithering
 The ditherTo8Colors.py script will produce a 8 colors paletted image from previous framed one.
 It uses standard ordered dithering method with a 2*4 bayer rectangular matrix adapted to the VG5000 resolution.
+```code
+python .\ditherTo8Colors.py .\im_reframed.png .6
+```
+Arguments are image name and gamma correction.
 
 ### Yliluoma's ordered dithering
 ### Other methods ?
