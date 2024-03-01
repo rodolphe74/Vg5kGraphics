@@ -49,6 +49,8 @@ python .\ditherTo8Colors.py .\im_reframed.png .6
 ```
 Arguments are image name and gamma correction.
 
+![Exotic](/images/im_ordered_standard_6.png)
+
 ### Yliluoma's ordered dithering
 ### Other methods ?
 
