@@ -53,6 +53,7 @@ Arguments are image name and gamma correction.
 
 ### Yliluoma's ordered dithering
 A far best method to dither image took from https://bisqwit.iki.fi/story/howto/dither/jy/. Original script is available [here](https://gist.github.com/mieki256/de2e21417528f724da4853cc30d9ef95).
+It uses the same matrix as previous script.
 ```code
 python .\ditherTo8ColorsY.py .\im_reframed.png .9
 ```
