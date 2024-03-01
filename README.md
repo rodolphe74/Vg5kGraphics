@@ -62,6 +62,13 @@ Arguments are image name and gamma correction.
 ![Exotic](/images/im_ordered_Yliluoma_9.png)
 
 ### Other methods ?
+Use an [Image magick](https://legacy.imagemagick.org/Usage/quantize/) dithering method.
+
+For example:
+```code
+magick.exe im_reframed.png -posterize 8 -ordered-dither o2x2 -remap palette.png -scale 100% im_ordered.png
+```
+![Exotic](/images/im_ordered_magick_9.png)
 
 ## 3. Transform image to Z80 assembly code
 
