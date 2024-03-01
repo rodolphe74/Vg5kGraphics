@@ -52,6 +52,9 @@ Arguments are image name and gamma correction.
 ![Exotic](/images/im_ordered_standard_6.png)
 
 ### Yliluoma's ordered dithering
+A far best method to dither image took from https://bisqwit.iki.fi/story/howto/dither/jy/.
+
+
 ### Other methods ?
 
 ## 3. Transform image to Z80 assembly code
