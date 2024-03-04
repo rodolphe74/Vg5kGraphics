@@ -74,7 +74,7 @@ Problem is that Image Magick is using a square matrix and even if dithering is g
 
 ## 3. Transform image to Z80 assembly code
 ```code
-python .\convertToZ8.py .\im_orderedy.png > hopper.asm
+python .\convertToZ8.py .\im_ordered.png > hopper.asm
 ```
 A new file named hopper.asm will be created.
 
