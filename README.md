@@ -91,7 +91,7 @@ To launch code, you need either:
 - a real VG5000,
 - or a [VG5000 emulator](http://dcvg5k.free.fr/download/emu/dcvg5k_20220226.zip).
 
-The binary code is relocated at adress $5000 in hexadecimal (20480 in decimal). In the emulator, type F9 to access to the "Mise au point" panel. Then set "Adresse" to 5000 in the right field. Then load "hopper.bin" file by clicking on the right sided button.
+The binary code is relocated at adress $5000 in hexadecimal (20480 in decimal). In the emulator, type F9 to access to the "Mise au point" panel. Then set "Adresse" to 5000 in the right field. Then load "hopper.bin" file by clicking on the "charger un fichier" button.
 
 ![mop](/images/misopoint.png)
 
