@@ -100,7 +100,7 @@ To launch binary code : ```CALL 20480``` is the basic editor.
 <table>
 <tr>
     <td><img src="images/call.png"></td>
-    <td><img src="images/vg5k_hopper.png"></td>
+    <td><img src="vg5k_hopper.png"></td>
 </tr>
 </table>
 
