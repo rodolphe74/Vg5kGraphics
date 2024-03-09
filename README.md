@@ -79,5 +79,19 @@ python .\convertToZ8.py .\im_ordered.png > hopper.asm
 A new file named hopper.asm will be created.
 
 ## 4. Compile assembly code to binary code
+A z80 compiler is mandatory. [Z88dk](https://z88dk.org/site/download) is a good one.
+Launch:
+- ```z88dk_prompt.bat``` to set the environment.
+- ```z80asm.exe -b hopper.asm``` to transform assembly code into binary code.
+
+A binary file ```hopper.bin``` is then created.
 
 ## 5. Launch binary code
+To launch code, you need either:
+- a real VG5000,
+- or a [VG5000 emulator](http://dcvg5k.free.fr/download/emu/dcvg5k_20220226.zip).
+
+The binary code is relocated at adress $5000 in hexadecimal (20480 in decimal). In the emulator, type F9 to access to the "Mise au point" panel. Then set "Adresse" to 5000 in the right field.
+
+
+To launch binary code : ```CALL 20480```
