@@ -99,8 +99,8 @@ To launch binary code : ```CALL 20480``` is the basic editor.
 
 <table>
 <tr>
-    <td><img src="images/call.png" height="125"></td>
-    <td><img src="images/nightawks_im_reframed.png" height="125"></td>
+    <td><img src="images/call.png"></td>
+    <td><img src="images/nightawks_im_reframed.png"></td>
 </tr>
 </table>
 
