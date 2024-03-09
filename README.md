@@ -82,5 +82,7 @@ A new file named hopper.asm will be created.
 A z80 compiler is mandatory. [Z88dk](https://z88dk.org/site/download) is a good one.
 Launch:
 - ```z88dk_prompt.bat``` to set the environment.
+- ```z80asm.exe -b hopper.asm``` to transform assembly code into binary code.
+A binary file names ````hopper.bin``` is then created.
 
 ## 5. Launch binary code
