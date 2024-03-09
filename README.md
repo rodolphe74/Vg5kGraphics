@@ -97,4 +97,10 @@ The binary code is relocated at adress $5000 in hexadecimal (20480 in decimal). 
 
 To launch binary code : ```CALL 20480``` is the basic editor.
 
-![mop](/images/call.png)
+<table>
+<tr>
+    <td><img src="images/call.png" height="125"></td>
+    <td><img src="images/nightawks_im_reframed.png" height="125"></td>
+</tr>
+</table>
+
