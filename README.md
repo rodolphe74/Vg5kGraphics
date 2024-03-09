@@ -95,4 +95,6 @@ The binary code is relocated at adress $5000 in hexadecimal (20480 in decimal). 
 
 ![mop](/images/misopoint.png)
 
-To launch binary code : ```CALL 20480```
+To launch binary code : ```CALL 20480``` is the basic editor.
+
+
