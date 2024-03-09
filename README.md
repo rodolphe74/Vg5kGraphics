@@ -79,5 +79,8 @@ python .\convertToZ8.py .\im_ordered.png > hopper.asm
 A new file named hopper.asm will be created.
 
 ## 4. Compile assembly code to binary code
+A z80 compiler is mandatory. [Z88dk](https://z88dk.org/site/download) is a good one.
+Launch:
+- ```z88dk_prompt.bat``` to set the environment.
 
 ## 5. Launch binary code
