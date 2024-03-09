@@ -93,5 +93,6 @@ To launch code, you need either:
 
 The binary code is relocated at adress $5000 in hexadecimal (20480 in decimal). In the emulator, type F9 to access to the "Mise au point" panel. Then set "Adresse" to 5000 in the right field.
 
+![mop](/images/misopoint.png)
 
 To launch binary code : ```CALL 20480```
